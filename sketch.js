@@ -32,9 +32,7 @@ function draw() {
 
     background(bg);
 
-//CHOOSE THE CORRECT IF BLOCK FOR CHECKING COLLISION 
-
-    /*if(cat.y - mouse.x < (cat.height - mouse.width)/2)
+if(cat.y - mouse.x < (cat.height - mouse.width)/2)
     { 
         cat.velocityX=0;
         cat.addAnimation("catLastImage", catImg3);
@@ -44,44 +42,9 @@ function draw() {
         mouse.addAnimation("mouseLastImage", mouseImg3);
         mouse.scale=0.15;
         mouse.changeAnimation("mouseLastImage");
-    }*/
+    }
 
-    /*if(cat.x - mouse.y < (cat.width - mouse.y)/2)
-    { 
-        cat.velocityX= -4;
-        cat.addAnimation("catLastImage", catImg3);
-        cat.x =300;
-        cat.scale=0.2;
-        cat.changeAnimation("catLastImage");
-        mouse.addAnimation("mouseLastImage", mouseImg3);
-        mouse.scale=0.15;
-        mouse.changeAnimation("mouseLastImage");
-    }*/
-
-    /*if(cat.x - mouse.x < (cat.width - mouse.width)/2)
-    { 
-        cat.velocityX=0;
-        cat.addAnimation("catLastImage", catImg3);
-        cat.x =300;
-        cat.scale=0.2;
-        cat.changeAnimation("catLastImage");
-        mouse.addAnimation("mouseLastImage", mouseImg3);
-        mouse.scale=0.15;
-        mouse.changeAnimation("mouseLastImage");
-    }*/
-
-    /*if(cat.y - mouse.y < (cat.height - mouse.height)/2)
-    { 
-        cat.velocityX= 4;
-        cat.addAnimation("catLastImage", catImg3);
-        cat.x =300;
-        cat.scale=0.2;
-        cat.changeAnimation("catLastImage");
-        mouse.addAnimation("mouseLastImage", mouseImg3);
-        mouse.scale=0.15;
-        mouse.changeAnimation("mouseLastImage");
-    }*/
-
+    
     drawSprites();
 }
 
